@@ -13,12 +13,12 @@ export const GlobalStyles = createGlobalStyle`
     background-color:#fff;
     font-family:"Red Hat Display", sans-serif;
     line-height: 1.5;
-  font-weight: 400;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
-html {
-  font-size: 62.5%;
+    font-weight: 400;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+};
+ html {
+    font-size: 62.5%;
 }
 `;
