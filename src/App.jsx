@@ -66,40 +66,37 @@ function App() {
             invite-only team access, data encryption, and data export.
           </Paragraph>
           <Line></Line>
-          <Footer>
-            <div>
-              <span>02</span>
-            </div>
-            <img className="imgFooter" src={imgFooter} alt="imgFooter"></img>
-            <img
-              className="tabletFooterImg"
-              src={tabletFooterImg}
-              alt="tabletFooterImg"
-            ></img>
-            <img
-              className="DesktopFooterImg"
-              src={DesktopFooterImg}
-              alt="DesktopFooterImg"
-            ></img>
-
-            <footer>
-              <FooterHeader>Experience more together</FooterHeader>
-              <FooterParag>
-                Stay connected with reliable HD meetings and unlimited
-                one-on-one and group video sessions.
-              </FooterParag>
-              <FooterBTN>
-                <div>
-                  <p>Download</p>&ensp;
-                  <span>v1.3</span>
-                </div>
-              </FooterBTN>
-            </footer>
-          </Footer>
         </MainSection>
-        {/* <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a> */}
+        <Footer>
+          <div>
+            <span>02</span>
+          </div>
+          <img className="imgFooter" src={imgFooter} alt="imgFooter"></img>
+          <img
+            className="tabletFooterImg"
+            src={tabletFooterImg}
+            alt="tabletFooterImg"
+          ></img>
+          <img
+            className="DesktopFooterImg"
+            src={DesktopFooterImg}
+            alt="DesktopFooterImg"
+          ></img>
+
+          <footer>
+            <FooterHeader>Experience more together</FooterHeader>
+            <FooterParag>
+              Stay connected with reliable HD meetings and unlimited one-on-one
+              and group video sessions.
+            </FooterParag>
+            <FooterBTN>
+              <div>
+                <p>Download</p>&ensp;
+                <span>v1.3</span>
+              </div>
+            </FooterBTN>
+          </footer>
+        </Footer>
       </MainContainer>
     </>
   );
@@ -161,9 +158,6 @@ const MainSection = styled.section`
   align-items: center;
   margin: 0 2.4rem;
   text-align: center;
-  @media (min-width: 1440px) {
-    margin: 0;
-  }
 `;
 const MainHeader = styled.h1`
   color: #28283d;
